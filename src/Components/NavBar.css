@@ -1,0 +1,26 @@
+.NavBar img {
+	width: 100%;
+}
+
+.NavBar-links {
+	width: 500px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.NavBar-links a {
+	text-decoration: none;
+	color: black;
+}
+
+.indicator {
+	width: 25px;
+	height: 2px;
+	background-color: transparent;
+	margin: 15px auto 0 auto;
+}
+
+.indicator.active {
+	background-color: #2ec1ac;
+}

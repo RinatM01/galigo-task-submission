@@ -1,0 +1,56 @@
+.Post {
+	text-align: start;
+}
+
+.Post .logo-container {
+	width: 50px;
+	height: 50px;
+}
+
+.Post header {
+	display: flex;
+	align-items: center;
+}
+
+.Post header h1 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.Post header p {
+	margin: 5px 0 5px 0;
+	color: #707070;
+	font-size: 0.8rem;
+}
+
+.author-data {
+	margin-left: 15px;
+}
+
+.time-tag {
+	margin-left: auto;
+	color: #707070;
+	font-size: 0.8rem;
+}
+
+.post-content {
+	border-top: 1.5px solid #f1f1f1;
+	border-bottom: 1.5px solid #f1f1f1;
+	padding: 20px 0;
+	margin: 20px 0;
+}
+
+.post-content img {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.post-content p {
+	margin: 0;
+}
+
+.Post footer {
+	color: #707070;
+	padding-bottom: 20px;
+}

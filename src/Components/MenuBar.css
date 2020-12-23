@@ -1,0 +1,67 @@
+.MenuBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.MenuBar-logo {
+	display: flex;
+}
+
+.MenuBar-logo img {
+	width: auto;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.MenuBar-logo h1 {
+	margin: 0;
+	font-size: 1.7rem;
+}
+
+.MenuBar-search {
+	width: 400px;
+	background-color: #f7f8fc;
+	padding: 10px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+}
+
+.MenuBar-search input[type=text] {
+	width: 100%;
+	border: none;
+	outline: none;
+	background-color: #f7f8fc;
+	font-size: 1rem;
+	margin-left: 10px;
+}
+
+.MenuBar-search input[type=text]::placeholder {
+	font-size: 1rem;
+}
+
+.MenuBar-icon {
+	font-size: 1.3rem;
+	color: gray;
+	margin: 0 5px;
+}
+
+.MenuBar-user {
+	display: flex;
+	align-items: center;
+}
+
+.user-data {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.user-data img {
+	width: auto;
+	height: 35px;
+}

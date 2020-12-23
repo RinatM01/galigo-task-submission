@@ -1,0 +1,132 @@
+.Home {
+	background-color: #fafafa;
+}
+
+.Home-top {
+	padding: 0 70px;
+	background-color: #ffffff;
+}
+
+.Home-content {
+	padding: 0 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.Home-content aside {
+	width: 20%;
+}
+
+.container {
+	background-color: #ffffff;
+	box-shadow: 0px 6px 20px 0px #e0e0e0;
+	border-radius: 15px;
+	padding: 20px 30px 0 30px;
+	text-align: center;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.company-avatar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-container {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: #fafafa 3px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-container img {
+	height: 70%;
+	width: auto;
+}
+
+.company-avatar h1 {
+	font-weight: 400;
+	max-width: 60%;
+	margin: 10px 0 0 0;
+}
+
+.company-data {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	border-bottom: 1.5px solid #f1f1f1;
+	padding-bottom: 20px;
+	margin-top: 60px;
+}
+
+.company-data .nums {
+	font-size: 1.2rem;
+}
+
+.company-data .label {
+	color: #707070;
+}
+
+.container a {
+	text-decoration: none;
+	color: #2ec1ac;
+	font-size: 1.3rem;
+	display: block;
+	padding: 20px 0;
+	margin-top: auto;
+}
+
+.requests .title {
+	font-weight: 400;
+	margin: 0;
+	margin: 10px 0;
+}
+
+.request-list {
+	border-top: 1.5px solid #f1f1f1;
+	border-bottom: 1.5px solid #f1f1f1;
+}
+
+.Home-content .feed {
+	width: 45%;
+}
+
+.select-menu {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	color: #707070;
+	border-bottom: 1.5px solid #c9c9c9;
+	margin-bottom: -1px;
+}
+
+.select-menu .icon {
+	margin-right: 5px;
+}
+
+.select-menu span {
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.select-active {
+	color: #000000;
+	border-bottom: 2px solid #2ec1ac;
+}
+
+.create input[type='text'] {
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 45px 0;
+}
+
+.create input[type='text']::placeholder {
+	font-size: 1.2rem;
+}
